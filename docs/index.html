@@ -4,59 +4,77 @@
   <meta charset="UTF-8">
   <title>Animal Shapes - Legal Documents</title>
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
     body {
+      display: flex;
+      flex-direction: column;
       font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    main {
+      flex: 1; /* Take all available vertical space */
       max-width: 600px;
       margin: 40px auto;
       padding: 20px;
       line-height: 1.6;
-      background-color: #f9f9f9;
     }
+
     h1 {
       text-align: center;
       color: #333;
     }
+
     ul {
       list-style-type: none;
       padding: 0;
       margin-top: 30px;
     }
+
     li {
       margin: 15px 0;
     }
+
     a {
       text-decoration: none;
       color: #0066cc;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 14px;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     footer {
-      margin-top: 50px;
       text-align: center;
       font-size: 14px;
       color: #777;
       border-top: 1px solid #ddd;
-      padding-top: 10px;
+      padding: 10px 0;
     }
   </style>
 </head>
 <body>
-  <h1>Animal Shapes Legal Documents</h1>
-  <ul>
-    <li><a href="animal_shapes_docs/AnimalShapes_privacy_policy_03-10-25.html" target="_blank">
-      Privacy Policy (03-10-25)
-    </a></li>
-    <li><a href="animal_shapes_docs/AnimalShapes_terms_of_use_03-10-25.html" target="_blank">
-      Terms of Use (03-10-25)
-    </a></li>
-  </ul>
+  <main>
+    <h1>Animal Shapes Legal Documents</h1>
+    <ul>
+      <li><a href="animal_shapes_docs/AnimalShapes_privacy_policy_03-10-25.html" target="_blank">
+        Privacy Policy (03-10-25)
+      </a></li>
+      <li><a href="animal_shapes_docs/AnimalShapes_terms_of_use_03-10-25.html" target="_blank">
+        Terms of Use (03-10-25)
+      </a></li>
+    </ul>
+  </main>
 
   <footer>
     <p>&copy; 2025 Arrowhead Interactive</p>
-    <p>Version 1.1</p>
+    <p>Version 1.0</p>
   </footer>
 </body>
 </html>
